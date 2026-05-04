@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | Roatan On The Fish</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="icon" type="image/jpg" href="9F7CCE6B-30C4-4A28-A1F9-4982D4CA611E.jpg">
+    <style>
+        body { font-family: 'Montserrat', sans-serif; background-color: #fcfdfe; scroll-behavior: smooth; }
+        h1, h2, h3 { font-family: 'Playfair Display', serif; text-wrap: balance;}
+        .about-hero {
+            background: linear-gradient(rgba(0, 31, 63, 0.6), rgba(0, 31, 63, 0.7)), url('jonesville mangroves.JPG');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="bg-[#001F3F] text-white p-4 sticky top-0 z-50 shadow-xl border-b border-white/10">
+        <div class="container mx-auto flex justify-between items-center px-4">
+            <a href="index.html" class="flex items-center gap-4">
+                <img src="9F7CCE6B-30C4-4A28-A1F9-4982D4CA611E.jpg" alt="Logo" class="h-[60px] w-auto object-contain rounded-sm">
+                <div class="hidden sm:flex flex-col text-left">
+                    <span class="text-xl font-bold tracking-tighter leading-none">ROATAN</span>
+                    <span class="text-xs font-normal text-orange-500 tracking-widest uppercase">On The Fish</span>
+                </div>
+            </a>
+
+            <button id="menu-btn" class="md:hidden text-white focus:outline-none">
+                <i class="fa-solid fa-bars text-2xl"></i>
+            </button>
+
+            <ul class="hidden md:flex space-x-8 text-xs uppercase tracking-widest font-bold items-center">
+                <li><a href="index.html" class="hover:text-orange-500 transition">Home</a></li>
+                <li><a href="about.html" class="text-orange-500">About Us</a></li>
+                <li><a href="packages.html" class="hover:text-orange-500 transition">Packages</a></li>
+                <li><a href="gallery.html" class="hover:text-orange-500 transition">Gallery</a></li>
+                <li><a href="reviews.html" class="hover:text-orange-500 transition">Reviews</a></li>
+                <li><a href="contact.html" class="hover:text-orange-500 transition">Contact</a></li>
+                <li class="bg-orange-600 px-6 py-2 rounded-full text-white hover:bg-orange-700 transition shadow-md">
+                    <a href="https://wa.me/50433746487?text=Hello!%20I%20would%20like%20to%20request%20a%20quote%20for%20a%20charter.">Book Now</a>
+                </li>
+            </ul>
+        </div>
+
+        <div id="mobile-menu" class="hidden md:hidden bg-[#001F3F] border-t border-white/10 p-4">
+            <ul class="flex flex-col space-y-4 text-xs uppercase tracking-widest font-bold">
+                <li><a href="index.html" class="hover:text-orange-500 block py-2">Home</a></li>
+                <li><a href="about.html" class="text-orange-500 block py-2">About Us</a></li>
+                <li><a href="packages.html" class="hover:text-orange-500 block py-2">Packages</a></li>
+                <li><a href="gallery.html" class="hover:text-orange-500 block py-2">Gallery</a></li>
+                <li><a href="reviews.html" class="hover:text-orange-500 block py-2">Reviews</a></li>
+                <li><a href="contact.html" class="hover:text-orange-500 block py-2">Contact</a></li>
+                <li><a href="https://wa.me/50433746487" class="bg-orange-600 inline-block px-6 py-3 rounded-full text-center">Book Now</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="about-hero py-32 text-center text-white">
+        <div class="container mx-auto px-4">
+            <span class="block text-sm uppercase tracking-[0.4em] text-orange-400 font-bold mb-4">Our Story</span>
+            <h1 class="text-5xl md:text-7xl font-bold italic">Meet Captain Osman</h1>
+        </div>
+    </header>
+
+    <section class="py-24 container mx-auto px-4">
+        <div class="grid md:grid-cols-2 gap-16 items-center max-w-6xl mx-auto">
+            <div class="relative">
+                <img src="east end roatan.JPG" alt="East End Life" class="rounded-3xl shadow-2xl relative z-10 w-full h-[500px] object-cover">
+                <div class="absolute -bottom-6 -left-6 w-full h-full border-4 border-orange-500 rounded-3xl -z-0"></div>
+            </div>
+            <div>
+                <h2 class="text-4xl text-[#001F3F] mb-6">Born & Raised in Oak Ridge</h2>
+                <p class="text-slate-600 leading-relaxed mb-6">
+                    Roatan On The Fish is built on a lifetime of maritime heritage. Captain **Osman Alvarado** has spent his life navigating the intricate mangrove channels and deep blue horizons of the East End. 
+                </p>
+                <p class="text-slate-600 leading-relaxed mb-8">
+                    Based out of the historic fishing village of Oak Ridge, we avoid the crowded tourist traps to give you an authentic island experience. From expert deep-sea fishing to the serene beauty of Port Royal, you're experiencing the island through the eyes of a local.
+                </p>
+                <div class="bg-[#001F3F] text-white p-8 rounded-2xl shadow-lg border-l-8 border-orange-500">
+                    <p class="italic text-lg">"We don't just show you the island; we show you our home."</p>
+                    <p class="mt-4 font-bold text-orange-400 uppercase tracking-widest text-sm">— Capt. Osman Alvarado</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pb-24 container mx-auto px-4">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+            <div class="h-80 overflow-hidden rounded-2xl shadow-lg">
+                <img src="pigeon keys nurse sharks.JPG" class="w-full h-full object-cover hover:scale-105 transition duration-500" alt="Snorkeling Adventures">
+            </div>
+            <div class="h-80 overflow-hidden rounded-2xl shadow-lg">
+                <img src="port royal santos guardiola.JPG" class="w-full h-full object-cover hover:scale-105 transition duration-500" alt="Port Royal">
+            </div>
+            <div class="h-80 overflow-hidden rounded-2xl shadow-lg">
+                <img src="snorkeling eat end roatan.JPG" class="w-full h-full object-cover hover:scale-105 transition duration-500" alt="East End Snorkeling">
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-20 text-center bg-white border-t">
+        <img src="9F7CCE6B-30C4-4A28-A1F9-4982D4CA611E.jpg" alt="Logo" class="h-20 mx-auto mb-8">
+        <h2 class="text-3xl mb-8 text-[#001F3F]">Ready for your next adventure?</h2>
+        <a href="https://wa.me/50433746487?text=Hello!%20I%20would%20like%20to%20request%20a%20quote%20for%20a%20charter." 
+           class="bg-green-600 text-white px-14 py-5 rounded-full font-bold text-xl inline-flex items-center gap-3 hover:bg-green-700 transition shadow-xl">
+            <i class="fab fa-whatsapp"></i> Contact via WhatsApp
+        </a>
+    </footer>
+
+    <footer class="bg-[#001F3F] py-12 text-center text-white border-t border-white/10">
+        <div class="container mx-auto px-4">
+            <div class="flex justify-center gap-8 mb-8 text-2xl">
+                <a href="#" class="hover:text-orange-500 transition"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="hover:text-orange-500 transition"><i class="fab fa-facebook"></i></a>
+                <a href="https://wa.me/50433746487" class="hover:text-orange-500 transition"><i class="fab fa-whatsapp"></i></a>
+            </div>
+            
+            <p class="text-xs font-bold uppercase tracking-[0.2em] text-slate-400">
+                © 2026 ROATAN ON THE FISH. ALL RIGHTS RESERVED.
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        const btn = document.getElementById('menu-btn');
+        const menu = document.getElementById('mobile-menu');
+
+        btn.addEventListener('click', () => {
+            menu.classList.toggle('hidden');
+        });
+    </script>
+
+</body>
+</html>
